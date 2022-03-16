@@ -40,4 +40,11 @@ public class Romboide extends Figura {
         double area=(base*altura);
         return area;
     }
+    
+//    public void calcularArea(double base, double altura){
+//        double area=(base*altura);
+//         System.out.println("El area del romboide es " + area);
+//     }
+    
+    
 }

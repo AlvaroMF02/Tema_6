@@ -37,4 +37,11 @@ public class Rectangulo extends Figura {
         return area;
     }
     
+//     public void calcularArea(double base, double altura){
+//        double area=(base*altura);
+//         System.out.println("El area del rectangulo es " + area);
+//     }
+    
+    
+    
 }

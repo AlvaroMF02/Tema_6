@@ -41,7 +41,8 @@ public class Figura {
     }
     
     
-    public void calcularArea(){
+    public double calcularArea(){
+        return null;
     }
 
     
