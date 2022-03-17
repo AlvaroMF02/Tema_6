@@ -5,7 +5,7 @@ package ejer7;
  * @author Álvaro
  */
 public abstract class Trabajador {
-    private String nombre;
+    private String nombre;      //esto debe ser protected??
     private String apellido1;
     private String nif;
 

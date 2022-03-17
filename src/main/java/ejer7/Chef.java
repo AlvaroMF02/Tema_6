@@ -5,7 +5,7 @@ package ejer7;
  * @author Álvaro
  */
 public class Chef extends Trabajador {
-    private String experiencia;
+    private String experiencia;     //esto debe ser protected??
 
     
     
