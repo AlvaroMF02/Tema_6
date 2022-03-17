@@ -22,6 +22,9 @@ public class Jerarquia {
         
         for (Figura f: figuras)
         System.out.println("Área: " + f.calcularArea());
+        for (Figura f : figuras) {
+            System.out.println("Área: "+f.calcularArea());
+        }
     }
 }
 
