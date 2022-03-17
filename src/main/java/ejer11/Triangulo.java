@@ -34,18 +34,14 @@ public class Triangulo extends Figura {
     }
     
     
-    
+    public double calcularArea(){
+        return 0;
+    }
     
     public double calcularArea(double base, double altura){
-        double area=(base*altura)/2;
+        double area=(this.base*this.altura)/2;
         return area;
     }
 
-    
-//    public void calcularArea(double base, double altura){
-//        double area=(base*altura)/2;
-//         System.out.println("El area del triangulo es " + area);
-//     }
-    
     
 }

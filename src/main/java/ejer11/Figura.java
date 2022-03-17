@@ -4,7 +4,7 @@ package ejer11;
  *
  * @author alvaro
  */
-public class Figura {
+public abstract class Figura {
     
     protected double base;
     protected double altura;
@@ -41,9 +41,7 @@ public class Figura {
     }
     
     
-    public double calcularArea(){
-        return null;
-    }
+    public abstract double calcularArea();  //metodo abstracto 
 
     
     
