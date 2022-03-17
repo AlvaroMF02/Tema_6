@@ -23,28 +23,28 @@ public class Trabajador {
     public Trabajador(){
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getApellido1() {
-        return apellido1;
-    }
-
-    public void setApellido1(String apellido1) {
-        this.apellido1 = apellido1;
-    }
-
-    public String getNIF() {
-        return NIF;
-    }
-
-    public void setNIF(String NIF) {
-        this.NIF = NIF;
-    }
+//    public String getNombre() {
+//        return nombre;
+//    }
+//
+//    public void setNombre(String nombre) {
+//        this.nombre = nombre;
+//    }
+//
+//    public String getApellido1() {
+//        return apellido1;
+//    }
+//
+//    public void setApellido1(String apellido1) {
+//        this.apellido1 = apellido1;
+//    }
+//
+//    public String getNIF() {
+//        return NIF;
+//    }
+//
+//    public void setNIF(String NIF) {
+//        this.NIF = NIF;
+//    }
 
 }
