@@ -29,7 +29,7 @@ public class Prueba {
         ArrayList <Trabajador> trabajadores = new ArrayList<>();
         
         //creacion de dos camareros
-        trabajadores.add(new Camarero("Perchero humano", "Benito", "Camela", "12345D"));
+        trabajadores.add(new Camarero("Perchero humano", "Benito", "Camela", "12345D"));    //converion implicitas
         trabajadores.add(new Camarero("Jefe sala", "Ana", "Boueles", "66810H"));
         
         //creacion de dos chefs
@@ -42,6 +42,13 @@ public class Prueba {
         }                                               //camarero cotiza 30000
         
         
+        //casting con peligro 
+        Camarero c = (Camarero) trabajadores.get(0);
         
+        
+        //casting bueno :) mas seguro de que sea camarero
+        if(trabajadores.get(0) instanceof Camarero){
+          ((Camarero) trabajadores.get(0)).servirMesa();
+        }
     }
 }
