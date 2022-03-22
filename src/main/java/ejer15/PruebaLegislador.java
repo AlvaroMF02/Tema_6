@@ -14,9 +14,9 @@ public class PruebaLegislador {
         camara.add(new Diputado(5, "Granada", "UwU", "Jimeno", "Moreno"));
         camara.add(new Diputado(7, "Málaga", "TwT", "Mari", "Paz"));
         
-        camara.add(new Senador(1, "Cádiz", "OwO", "Mari", "Jose"));
-        camara.add(new Senador(1, "Almería", "miau", "Antonio", "Fernando"));
-        camara.add(new Senador(1, "Cádiz", "wau", "Perico", "Palotes"));
+        camara.add(new Senador(40, "Cádiz", "OwO", "Mari", "Jose"));
+        camara.add(new Senador(52, "Almería", "miau", "Antonio", "Fernando"));
+        camara.add(new Senador(165, "Cádiz", "wau", "Perico", "Palotes"));
         
         
         
