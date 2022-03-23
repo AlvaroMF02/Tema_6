@@ -8,14 +8,14 @@ public class Persona {
     
     private String nombre;
     private String apellidos;
-    private String nif;
+    private int nif;
 
     
     
     
     
     
-    public Persona(String nombre, String apellidos, String nif) {
+    public Persona(String nombre, String apellidos, int nif) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.nif = nif;
@@ -42,11 +42,11 @@ public class Persona {
         this.apellidos = apellidos;
     }
 
-    public String getNif() {
+    public int getNif() {
         return nif;
     }
 
-    public void setNif(String nif) {
+    public void setNif(int nif) {
         this.nif = nif;
     }
 

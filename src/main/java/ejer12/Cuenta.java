@@ -1,5 +1,6 @@
 package ejer12;
 
+import java.util.Objects;
 import org.apache.commons.lang3.RandomStringUtils;
 
 /**
@@ -27,11 +28,12 @@ public abstract class Cuenta {
     
     
     public Cuenta(String numeroCuenta, double saldo, Persona cliente) {
-        this.numeroCuenta =RandomStringUtils.randomNumeric(20).toUpperCase();
+        this.numeroCuenta =RandomStringUtils.randomNumeric(20).toUpperCase();   //crea 20 numersos aleatorios
         this.saldo = 0.0;
         this.cliente = cliente;
     }
-    
+    public Cuenta() {
+    }
     
     
     
@@ -59,12 +61,15 @@ public abstract class Cuenta {
     public void setCliente(Persona cliente) {
         this.cliente = cliente;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Cuenta{" + "numeroCuenta=" + numeroCuenta + ", saldo=" + saldo + ", cliente=" + cliente + '}';
+    }
     
     
     public abstract void actualizarSaldo();
     
     public abstract void retirar(double cant);
     
-    public abstract void interes();
 }
