@@ -19,9 +19,9 @@ public class PruebaLegislador {
         camara.add(new Senador(165, "Cádiz", "wau", "Perico", "Palotes"));
         
 
-        for (Legislador legislador : camara) {
-            System.out.println(legislador.getCamara());
-        }
+//        for (Legislador legislador : camara) {
+//            System.out.println(legislador.;
+//        }
         
         
     }

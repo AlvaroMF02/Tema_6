@@ -8,24 +8,6 @@ import java.util.ArrayList;
  */
 public class Prueba {
     public static void main(String[] args) {
-        /*
-        //objeto creado desde la superclase Trabajador
-        Trabajador pepe = new Trabajador("Pepe", "Lopez", "22323D");
-                
-        //Objeto creado desde la subclase Camarero
-        Camarero juan = new Camarero("Jefe Sala", "Juan", "Gil", "23412G");
-    
-    
-        pepe.cotizar();
-        
-        System.out.println(juan.getRango());
-        juan.servirMesa();
-    
-        //La clase camarero puede usar el metodo getNombre porque pertenece a la superclase
-        System.out.println("El camarero se llama " + juan.getNombre());
-        juan.cotizar();
-        */
-        
         ArrayList <Trabajador> trabajadores = new ArrayList<>();
         
         //creacion de dos camareros
