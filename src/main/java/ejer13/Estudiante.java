@@ -26,11 +26,15 @@ public class Estudiante extends Persona{
         return super.toString()+
                 "Estudiante{" + "idEstudiante=" + idEstudiante + '}';
     }
+    
+    
+    
 
     @Override
     public void identificate() {
         System.out.println("Soy un estudiante");
     }
+    
     
     
 }

@@ -32,6 +32,7 @@ public class Prueba {
         //Mostrar los atributos propios de cada clase
         //Profesor
         for (Persona p : persona) {
+            System.out.println(p.getClass());   //te da la clase 
             if (p instanceof Profesor) {
                 ((Profesor) p).getEspecialidad();   //lo hace solo, poniendo "p." buscas el que quieras y tabulas
             }
@@ -43,6 +44,8 @@ public class Prueba {
                 ((Estudiante) p).getIdEstudiante();
             }
         }
+        
+      
         
         
         //Persona pepe = new Persona(); no se pueden crear objetos Persona porque la clase es abstract
@@ -58,7 +61,11 @@ public class Prueba {
         id.add(new Estudiante("a4", "Cinthya", "Navarro", "287364L", new Direccion("direc.", "ciudad", 29378, "España")));
         id.add(new Estudiante("m5", "Irene", "Jimenez", "293846V", new Direccion("direc.", "ciudad", 29378, "España")));
         
-        //es posible porque si :)
+        
+//        for (Identificable i : id) {
+//            i.
+//        }
+       
     }
 
 }
