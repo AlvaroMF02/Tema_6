@@ -73,7 +73,7 @@ public class Robot implements Comparable<Robot>{
     @Override
     public int compareTo(Robot t) {
         //return this.numSerie.compareTo(numSerie);           //con integer
-        return Integer.compare(this.numSerie, t.numSerie);    //siendo int 
+        return Integer.compare(this.vida, t.vida);    //siendo int 
     }
     
     
