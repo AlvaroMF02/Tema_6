@@ -36,9 +36,6 @@ public class Prueba {
             System.out.println(r);
         }
 
-        if () {
-            
-        }
         
         
     }

@@ -44,7 +44,7 @@ public class Pasajero {
 
     @Override
     public String toString() {
-        return "Pasajero{" + "nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + '}';
+        return "Nombre=" + nombre + ", Apellido= " + apellido + ", dni= " + dni;
     }
 
     @Override
