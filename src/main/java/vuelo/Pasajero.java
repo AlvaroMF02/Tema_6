@@ -7,7 +7,7 @@ import java.util.Objects;
  * @author alvaro
  */
 public class Pasajero {
-    
+
     private String nombre;
     private String apellido;
     private String dni;
@@ -76,7 +76,5 @@ public class Pasajero {
         }
         return Objects.equals(this.dni, other.dni);
     }
-    
-    
-   
+
 }

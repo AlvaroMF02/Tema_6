@@ -21,7 +21,7 @@ public class Vuelo {
         this.tiempVuelo = tiempVuelo;
         this.pasajeros = new ArrayList<>();
     }
-    
+
     public Vuelo() {
     }
 
@@ -65,19 +65,15 @@ public class Vuelo {
         this.pasajeros = pasajero;
     }
 
-    
-    public void aniadirPasajero(Pasajero pasajero){
-        if (pasajero != null){
+    public void aniadirPasajero(Pasajero pasajero) {
+        if (pasajero != null) {
             pasajeros.add(pasajero);
         }
     }
-    
-    
-    
+
     @Override
     public String toString() {
         return "\nVuelo:" + " Codigo Vuelo= " + codVuelo + ", Ciudad Origen= " + ciudadOrigen + ", Ciudad Destino= " + ciudadDestino + ", Tiempo= " + tiempVuelo + " \n\tPasajero= " + pasajeros;
     }
-    
-    
+
 }
