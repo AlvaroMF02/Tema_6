@@ -12,14 +12,14 @@ public class Vuelo {
     private String ciudadOrigen;
     private String ciudadDestino;
     private double tiempVuelo;
-    private ArrayList<Pasajero> pasajero=new ArrayList<>();
+    private ArrayList<Pasajero> pasajeros;
 
-    public Vuelo(String codVuelo, String ciudadOrigen, String ciudadDestino, double tiempVuelo, Pasajero pasajero) {
+    public Vuelo(String codVuelo, String ciudadOrigen, String ciudadDestino, double tiempVuelo) {
         this.codVuelo = codVuelo;
         this.ciudadOrigen = ciudadOrigen;
         this.ciudadDestino = ciudadDestino;
         this.tiempVuelo = tiempVuelo;
-        this.pasajero.add(pasajero);
+        this.pasajeros = new ArrayList<>();
     }
     
     public Vuelo() {
@@ -58,16 +58,25 @@ public class Vuelo {
     }
 
     public ArrayList<Pasajero> getPasajero() {
-        return pasajero;
+        return pasajeros;
     }
 
     public void setPasajero(ArrayList<Pasajero> pasajero) {
-        this.pasajero = pasajero;
+        this.pasajeros = pasajero;
     }
 
+    
+    public void aniadirPasajero(Pasajero pasajero){
+        if (pasajero != null){
+            pasajeros.add(pasajero);
+        }
+    }
+    
+    
+    
     @Override
     public String toString() {
-        return "\nVuelo:" + " Codigo Vuelo= " + codVuelo + ", Ciudad Origen= " + ciudadOrigen + ", Ciudad Destino= " + ciudadDestino + ", Tiempo= " + tiempVuelo + " \n\tPasajero= " + pasajero;
+        return "\nVuelo:" + " Codigo Vuelo= " + codVuelo + ", Ciudad Origen= " + ciudadOrigen + ", Ciudad Destino= " + ciudadDestino + ", Tiempo= " + tiempVuelo + " \n\tPasajero= " + pasajeros;
     }
     
     
